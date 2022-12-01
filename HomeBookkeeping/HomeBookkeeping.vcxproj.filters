@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Members">
+      <UniqueIdentifier>{e2b54e06-28cc-4321-a1b0-8521e1b44c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Other">
+      <UniqueIdentifier>{84381142-533a-49f9-b656-abacf150e2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Members">
+      <UniqueIdentifier>{84581a48-a06e-43f6-9b22-0193c3f8226a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Other">
+      <UniqueIdentifier>{6ea44bf3-8f82-498f-b055-28afe26ce25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FileReaders">
+      <UniqueIdentifier>{bd6487f2-4c87-416b-850d-ceaf91f92adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FileReaders">
+      <UniqueIdentifier>{5546733a-75cf-42dc-89e9-13e92805f8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factory">
+      <UniqueIdentifier>{002656f4-ef4d-40d8-a365-51f40d2b36f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factory">
+      <UniqueIdentifier>{d6bfed3c-4408-463f-b188-a410cf2f93a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FileReaders\Abstract">
+      <UniqueIdentifier>{e6f0db90-4702-49dd-a6f1-21a5eca511e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FileReaders\Json">
+      <UniqueIdentifier>{ef38b30b-09b0-4ac6-b62a-e0032a9f3e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FileReaders\Json">
+      <UniqueIdentifier>{f534d728-b8bd-4264-83ab-660ab3d4653f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FileReaders\Abstract">
+      <UniqueIdentifier>{76b3e562-073d-487e-8a44-f0bc9182ef17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factory\Abstract">
+      <UniqueIdentifier>{2073f5e0-6188-465b-9a9a-5cd262d01c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factory\Json">
+      <UniqueIdentifier>{2019edda-2003-48e9-af51-cea088c26e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factory\Json">
+      <UniqueIdentifier>{7aa9416d-82ae-44be-86de-182b6c782f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Enum">
+      <UniqueIdentifier>{2cf8ce3e-cdd6-4a65-8765-08952b796ca4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Family.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="FamilyMember.cpp">
+      <Filter>Исходные файлы\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFamilyMember.cpp">
+      <Filter>Исходные файлы\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkingFamilyMember.cpp">
+      <Filter>Исходные файлы\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Исходные файлы\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Purchase.cpp">
+      <Filter>Исходные файлы\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFamilyFileReader.cpp">
+      <Filter>Исходные файлы\FileReaders\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonJobFileReader.cpp">
+      <Filter>Исходные файлы\FileReaders\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFamilyFactory.cpp">
+      <Filter>Исходные файлы\Factory\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonJobFactory.cpp">
+      <Filter>Исходные файлы\Factory\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="FamilyFileReader.cpp">
+      <Filter>Исходные файлы\FileReaders\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="PurchaseFileReader.cpp">
+      <Filter>Исходные файлы\FileReaders\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonPurchaseFileReader.cpp">
+      <Filter>Исходные файлы\FileReaders\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonPurchaseFactory.cpp">
+      <Filter>Исходные файлы\Factory\Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFamilyMember.h">
+      <Filter>Файлы заголовков\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyMember.h">
+      <Filter>Файлы заголовков\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkingFamilyMember.h">
+      <Filter>Файлы заголовков\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Файлы заголовков\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Purchase.h">
+      <Filter>Файлы заголовков\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JobFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFamilyFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonJobFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyFactory.h">
+      <Filter>Файлы заголовков\Factory\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFamilyFactory.h">
+      <Filter>Файлы заголовков\Factory\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonJobFactory.h">
+      <Filter>Файлы заголовков\Factory\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Family.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Файлы заголовков\Factory\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JobFactory.h">
+      <Filter>Файлы заголовков\Factory\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyMemberType.h">
+      <Filter>Файлы заголовков\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonPurchaseFileReader.h">
+      <Filter>Файлы заголовков\FileReaders\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseFactory.h">
+      <Filter>Файлы заголовков\Factory\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonPurchaseFactory.h">
+      <Filter>Файлы заголовков\Factory\Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="family.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="jobs.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="purchases.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>
