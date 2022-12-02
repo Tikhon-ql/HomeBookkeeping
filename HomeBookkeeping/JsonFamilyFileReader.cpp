@@ -17,6 +17,7 @@ void JsonFamilyFileReader::SaveToFile(string path, list<FamilyMember*> members)
 	json memberJson;
 	for (auto f : members)
 	{
+		memberJson["username"] = f->GetUsername();
 		memberJson["name"] = f->GetName();
 		memberJson["surname"] = f->GetSurname();
 		memberJson["currentBalance"] = f->GetCurrentBalance();
@@ -37,6 +38,7 @@ void JsonFamilyFileReader::SaveToFile(string path, list<FamilyMember*> members)
 		{
 			memberJson["type"] = 0;
 		}
+		memberJson["passwordHash"] = f->GetPasswordHash();
 		memberJsonArray.push_back(memberJson);
 	}
 

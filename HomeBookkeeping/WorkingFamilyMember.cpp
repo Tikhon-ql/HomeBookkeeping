@@ -1,6 +1,6 @@
 #include "WorkingFamilyMember.h"
 
-WorkingFamilyMember::WorkingFamilyMember(std::string name, std::string surname, float currentBalance) :FamilyMember(name, surname, currentBalance) { type = Adult; };
+WorkingFamilyMember::WorkingFamilyMember(std::string username, std::string name, std::string surname, float currentBalance) :FamilyMember(username, name, surname, currentBalance) { type = Adult; };
 
 float WorkingFamilyMember::GetTotalSalary() { return _totalSalary; }
 

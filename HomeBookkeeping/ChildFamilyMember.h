@@ -4,6 +4,6 @@
 class ChildFamilyMember :public FamilyMember
 {
 public:
-	ChildFamilyMember(std::string name, std::string surname, float currentBalance);
+	ChildFamilyMember(std::string username,std::string name, std::string surname, float currentBalance);
 };
 

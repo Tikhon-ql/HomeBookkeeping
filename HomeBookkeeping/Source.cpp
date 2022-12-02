@@ -5,6 +5,7 @@
 #include "ChildFamilyMember.h"
 #include "WorkingFamilyMember.h"
 #include "JsonFamilyFactory.h"
+#include "MemoryUserRepository.h"
 
 using namespace std;
 
@@ -46,7 +47,7 @@ int main()
 						cin >> surname;
 						member = new WorkingFamilyMember(name, surname, 0);
 					}
-					else 
+					else
 					{
 						cout << "Enter name: ";
 						cin >> name;
@@ -68,7 +69,7 @@ int main()
 					break;
 			}
 		}
-		
+
 	}
 	else
 	{
@@ -82,21 +83,50 @@ int main()
 	}
 	family->showAll();*/
 
-	Family* family = new Family();
-	FamilyMember* member1 = new WorkingFamilyMember("Tikhon", "Grek", 0);
-	FamilyMember* member2 = new WorkingFamilyMember("Stepan", "Grek", 0);
-	family->AddMember(member1);
-	family->AddMember(member2);
-	static_cast<WorkingFamilyMember*>(member1)->AddJob(new Job("AOA ALENA", "KONDITER", 1500));
-	static_cast<WorkingFamilyMember*>(member1)->AddJob(new Job("AOA ALENA2", "KONDITER2", 3000));
-	static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
-	member1->AddPurchase(new Purchase("Bread",member1->GetId(),15,2022));
-	member1->AddPurchase(new Purchase("Milk",member1->GetId(),62,2022));
-	member1->AddPurchase(new Purchase("Meat",member1->GetId(),74,2022));
-	member2->AddPurchase(new Purchase("Sweet",member1->GetId(),150,2022));
-	member2->AddPurchase(new Purchase("Potato",member1->GetId(),10,2022));
-	family->SaveToFile("family.json");
-	
+	//Family* family = new Family();
+	FamilyMember* member1 = new ChildFamilyMember("tikhon", "Tikhon", "Grek", 0);
+	FamilyMember* member2 = new WorkingFamilyMember("stepaa", "Stepan", "Grek", 0);
+	FamilyMember* member3 = new WorkingFamilyMember("dad", "Dad", "Grek", 0);
+	FamilyMember* member4 = new WorkingFamilyMember("mam", "Mam", "Grek", 0);
+	//family->AddMember(member1);
+	//family->AddMember(member2);
+	//static_cast<WorkingFamilyMember*>(member1)->AddJob(new Job("AOA ALENA", "KONDITER", 1500));
+	//static_cast<WorkingFamilyMember*>(member1)->AddJob(new Job("AOA ALENA2", "KONDITER2", 3000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//static_cast<WorkingFamilyMember*>(member2)->AddJob(new Job("AOA ALENA3", "KONDITER3", 1000));
+	//member1->AddPurchase(new Purchase("Bread",member1->GetId(),15,2022));
+	//member1->AddPurchase(new Purchase("Milk",member1->GetId(),62,2022));
+	//member1->AddPurchase(new Purchase("Meat",member1->GetId(),74,2022));
+	//member2->AddPurchase(new Purchase("Sweet",member1->GetId(),150,2022));
+	//member2->AddPurchase(new Purchase("Potato",member1->GetId(),10,2022));
+	//family->SaveToFile("family.json");
+
+	list<User*> users = { member1,member2, member3, member4 };
+
+	UserService* service = new UserService(new MemoryUserRepository(users));
+
+	string username;
+	string password;
+
+	cout << "Enter username: " << endl;
+	rewind(stdin);
+	getline(cin, username);
+	cout << "Enter password: " << endl;
+	rewind(stdin);
+	getline(cin, password);
+	service->Authenticate(username, password);
+
+	for (auto u : users)
+	{
+		if (u->IsAuthenticated())
+			cout << u->GetUsername() << endl;
+	}
 
 	//family->SetFactory(new JsonFamilyFactory());
 	//family->LoadFromFile("data.json");

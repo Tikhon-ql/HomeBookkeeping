@@ -1,0 +1,231 @@
+﻿  ChildFamilyMember.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  Family.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  FamilyFileReader.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  FamilyMember.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  JsonFamilyFactory.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  JsonFamilyFileReader.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  JsonJobFactory.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  JsonPurchaseFactory.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  MemoryUserRepository.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,29): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,14): error C2061: синтаксическая ошибка: идентификатор "UserRepository"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(11,19): error C2061: синтаксическая ошибка: идентификатор "string"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,55): error C2065: repository: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,43): error C2614: UserService: недопустимая инициализация члена: "_repository" не является базовым классом или членом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\MemoryUserRepository.cpp(22,17): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+  Repository.cpp
+  Source.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112): error C2259: "MemoryUserRepository": невозможно создать экземпляр абстрактного класса
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\MemoryUserRepository.h(4): message : см. объявление "MemoryUserRepository"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112): message : из-за следующих членов:
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112): message : void UserRepository::Create(void): абстрактный
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10): message : см. объявление "UserRepository::Create"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112): message : void UserRepository::Update(void): абстрактный
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12): message : см. объявление "UserRepository::Update"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112,65): error C2259: "MemoryUserRepository": невозможно создать экземпляр абстрактного класса
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\MemoryUserRepository.h(4): message : см. объявление "MemoryUserRepository"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112,65): message : из-за следующих членов:
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112,65): message : void UserRepository::Create(void): абстрактный
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10): message : см. объявление "UserRepository::Create"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\Source.cpp(112,65): message : void UserRepository::Update(void): абстрактный
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12): message : см. объявление "UserRepository::Update"
+  User.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  UserRepository.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,29): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,14): error C2061: синтаксическая ошибка: идентификатор "UserRepository"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(11,19): error C2061: синтаксическая ошибка: идентификатор "string"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,55): error C2065: repository: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,43): error C2614: UserService: недопустимая инициализация члена: "_repository" не является базовым классом или членом
+  UserService.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(10,20): error C2433: UserService: "friend" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(10,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(7,7): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(14,7): error C2248: User::_passwordHash: невозможно обратиться к protected член, объявленному в классе "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(13): message : см. объявление "User::_passwordHash"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(28,11): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(32,8): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(33,15): error C2248: User::_id: невозможно обратиться к protected член, объявленному в классе "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(11): message : см. объявление "User::_id"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
+  WorkingFamilyMember.cpp
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(8,1): error C3770: "unknown-type": не является допустимым базовым классом
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(10,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C2433: UserRepository::User: "virtual" не разрешается для объявлений данных
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(11,41): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(12,22): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,7): error C2065: User: необъявленный идентификатор
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,12): error C2059: синтаксическая ошибка: >
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error C2062: тип "int" не требуется
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
+  Создание кода...

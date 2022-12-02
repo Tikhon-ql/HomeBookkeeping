@@ -1,5 +1,4 @@
-﻿  JsonFamilyFileReader.cpp
-  JsonJobFileReader.cpp
-  Source.cpp
+﻿  FamilyMember.cpp
+  WorkingFamilyMember.cpp
   Создание кода...
-  HomeBookkeeping.vcxproj -> D:\Tikhon\Proga\C++\secondsBranche\HomeBookkeeping\x64\Debug\HomeBookkeeping.exe
+  HomeBookkeeping.vcxproj -> D:\Tikhon\Github\HomeBookkeeping\x64\Debug\HomeBookkeeping.exe
