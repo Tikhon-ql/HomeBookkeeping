@@ -20,6 +20,13 @@ bool User::CompareTo(User* user)
 	return false;
 }
 
+bool User::CompareTo(string name, string password)
+{
+	if (name == _username && _passwordHash == password)
+		return true;
+	return false;
+}
+
 int User::GetId()const { return _id; }
 int User::SetId(int id) { _id = id; return _id; }
 

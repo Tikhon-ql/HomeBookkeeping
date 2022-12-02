@@ -61,14 +61,8 @@
     <Filter Include="Файлы заголовков\Enum">
       <UniqueIdentifier>{2cf8ce3e-cdd6-4a65-8765-08952b796ca4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Identity">
-      <UniqueIdentifier>{8f620744-0456-4f2c-8186-6b165aa2177d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\Identity">
       <UniqueIdentifier>{09f95b5a-703a-485c-bf49-75694b044a93}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Identity\Services">
-      <UniqueIdentifier>{cebf0da2-8beb-411c-89d2-1de9ee16b999}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\Identity\Services">
       <UniqueIdentifier>{335e7157-9399-4dc4-a67c-7d76aa1c32ee}</UniqueIdentifier>
@@ -84,6 +78,18 @@
     </Filter>
     <Filter Include="Исходные файлы\Repositories\Memory">
       <UniqueIdentifier>{032cc595-4290-4818-86d2-f15b29f81e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Identity">
+      <UniqueIdentifier>{8f620744-0456-4f2c-8186-6b165aa2177d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Identity\Services">
+      <UniqueIdentifier>{cebf0da2-8beb-411c-89d2-1de9ee16b999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Repositories\File">
+      <UniqueIdentifier>{bdb5ea28-1da6-4dd8-964f-905de6e94822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Repositories\File">
+      <UniqueIdentifier>{19296afd-0228-44ab-948a-d0bb470b29cb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +152,9 @@
     </ClCompile>
     <ClCompile Include="MemoryUserRepository.cpp">
       <Filter>Исходные файлы\Repositories\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUserRepository.cpp">
+      <Filter>Исходные файлы\Repositories\File</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -212,9 +221,6 @@
     <ClInclude Include="JsonPurchaseFactory.h">
       <Filter>Файлы заголовков\Factory\Json</Filter>
     </ClInclude>
-    <ClInclude Include="User.h">
-      <Filter>Файлы заголовков\Identity</Filter>
-    </ClInclude>
     <ClInclude Include="UserService.h">
       <Filter>Файлы заголовков\Identity\Services</Filter>
     </ClInclude>
@@ -226,6 +232,12 @@
     </ClInclude>
     <ClInclude Include="MemoryUserRepository.h">
       <Filter>Файлы заголовков\Repositories\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Файлы заголовков\Identity</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUserRepository.h">
+      <Filter>Файлы заголовков\Repositories\File</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

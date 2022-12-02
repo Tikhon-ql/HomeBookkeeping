@@ -4,14 +4,15 @@
 int UserService::Logout(User* user)
 {
 	if (user->IsAuthenticated())
-		user->isAuthenticate = false;
+		user->SetAuthenticated(false);
+	return user->GetId();
 }
 
 void UserService::Register(User* user, string password)
 {
 	if (user)
 	{
-		user->_passwordHash = password;
+		user->SetPassword(password);
 		_repository->Create(user);
 		_repository->SaveChanges();
 	}
@@ -22,20 +23,25 @@ void UserService::Register(User* user, string password)
 }
 
 
-int UserService::Authenticate(string username, string passwordHash)
+User* UserService::Authenticate(string username, string passwordHash)
 {
 	User* user = _repository->Read(username);
-	if (!user->isAuthenticate)
+	if (user && !user->IsAuthenticated())
 	{
 		if (user->CompareTo(username, passwordHash))
 		{
-			user->isAuthenticate = true;
-			return user->_id;
+			user->SetAuthenticated(true);
+			return user;
 		}
 		else
 		{
-			throw exception("User hadn't been found!!!");
-			return -1;
+			//throw exception("User hadn't been found!!!");
+			return nullptr;
 		}
+	}
+	else 
+	{
+		//throw exception("User hadn't been found!!!");
+		return nullptr;
 	}
 }

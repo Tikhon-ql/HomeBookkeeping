@@ -7,7 +7,8 @@ void MemoryUserRepository::Create(User* user)
 
 User* MemoryUserRepository::Read(string username)
 {
-	return *std::find_if(_users.begin(), _users.end(), [](const User& user, string username) { return user.GetUsername() == username; });
+	User* user = *std::find_if(_users.begin(), _users.end(), [username](User*& user) { return user->GetUsername() == username; });
+	return user;
 }
 
 void MemoryUserRepository::Update(User* data)
@@ -19,7 +20,7 @@ void MemoryUserRepository::Update(User* data)
 
 void MemoryUserRepository::Delete(int id)
 {
-	 std::remove_if(_users.begin(), _users.end(), [](const User& user, int id) { return user.GetId() == id; });
+	 std::remove_if(_users.begin(), _users.end(), [id](User*& user) { return user->GetId() == id; });
 }
 
 list<User*> MemoryUserRepository::GetAll()

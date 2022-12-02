@@ -1,13 +1,14 @@
 #pragma once
-#include "UserService.h"
 #include<string>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
 
 using namespace std;
 
 class User
 {
 protected:
-	friend UserService;
 	int _id = rand();
 	string _username;
 	string _passwordHash;
@@ -36,5 +37,11 @@ public:
 	bool IsAuthenticated()const;
 
 	void SetAuthenticated(bool value);
+
+	json virtual GetDataJson() = 0;
+
+	void virtual SetDataJson(json json) = 0;
+
+	//virtual string ToString()const = 0;
 };
 

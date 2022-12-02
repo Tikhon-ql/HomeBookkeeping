@@ -136,6 +136,7 @@
     <ClCompile Include="Family.cpp" />
     <ClCompile Include="FamilyFileReader.cpp" />
     <ClCompile Include="FamilyMember.cpp" />
+    <ClCompile Include="FileUserRepository.cpp" />
     <ClCompile Include="Job.cpp" />
     <ClCompile Include="JsonFamilyFactory.cpp" />
     <ClCompile Include="JsonFamilyFileReader.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="FamilyMember.h" />
     <ClInclude Include="FamilyMemberType.h" />
     <ClInclude Include="FileReader.h" />
+    <ClInclude Include="FileUserRepository.h" />
     <ClInclude Include="Job.h" />
     <ClInclude Include="JobFactory.h" />
     <ClInclude Include="JobFileReader.h" />

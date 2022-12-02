@@ -10,6 +10,7 @@ private:
 	std::list<FamilyMember*> _familyMembers = std::list<FamilyMember*>();
 	FamilyFactory* _familyFactory;
 	JobFactory* _jobFactory;
+	User* _current;
 public:
 	Family();
 	void AddMember(FamilyMember* member);
@@ -19,4 +20,7 @@ public:
 	void SaveToFile(std::string path);
 	void SetFamilyFactory(FamilyFactory* factory) { _familyFactory = factory; }
 	void SetJobFactory(JobFactory* factory) { _jobFactory = factory; }
+
+	User* GetCurrentUser()const;
+	void SetCurrentUser(User* user);
 };

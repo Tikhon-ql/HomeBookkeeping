@@ -76,3 +76,6 @@ void Family::showAll()
 		cout << m->ToString() << endl;
 	}
 }
+
+User* Family::GetCurrentUser()const { return _current; }
+void Family::SetCurrentUser(User* user) { _current = user; }

@@ -62,7 +62,6 @@ D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error 
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
-  Job.cpp
   JsonFamilyFactory.cpp
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
@@ -111,7 +110,6 @@ D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error 
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
-  JsonJobFileReader.cpp
   JsonPurchaseFactory.cpp
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
@@ -128,7 +126,6 @@ D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,14): error 
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(14,34): error C2238: непредвиденные лексемы перед ";"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(12,13): error C2061: синтаксическая ошибка: идентификатор "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C2061: синтаксическая ошибка: идентификатор "User"
-  JsonPurchaseFileReader.cpp
   MemoryUserRepository.cpp
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(8,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
@@ -140,9 +137,6 @@ D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C20
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,55): error C2065: repository: необъявленный идентификатор
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,43): error C2614: UserService: недопустимая инициализация члена: "_repository" не является базовым классом или членом
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\MemoryUserRepository.cpp(22,17): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
-  Purchase.cpp
-  PurchaseFileReader.cpp
-  Repository.cpp
   Source.cpp
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,47): error C2059: синтаксическая ошибка: >
@@ -200,22 +194,20 @@ D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(13,16): error C20
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,55): error C2065: repository: необъявленный идентификатор
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.h(10,43): error C2614: UserService: недопустимая инициализация члена: "_repository" не является базовым классом или членом
   UserService.cpp
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(10,20): error C2433: UserService: "friend" не разрешается для объявлений данных
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(10,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(7,7): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(15): message : см. объявление "User::isAuthenticate"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(14,7): error C2248: User::_passwordHash: невозможно обратиться к protected член, объявленному в классе "User"
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(13): message : см. объявление "User::_passwordHash"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(12): message : см. объявление "User::_passwordHash"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(28,11): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(15): message : см. объявление "User::isAuthenticate"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(32,8): error C2248: User::isAuthenticate: невозможно обратиться к protected член, объявленному в классе "User"
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(16): message : см. объявление "User::isAuthenticate"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(15): message : см. объявление "User::isAuthenticate"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserService.cpp(33,15): error C2248: User::_id: невозможно обратиться к protected член, объявленному в классе "User"
-D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(11): message : см. объявление "User::_id"
+D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(10): message : см. объявление "User::_id"
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\User.h(7): message : см. объявление "User"
   WorkingFamilyMember.cpp
 D:\Tikhon\Github\HomeBookkeeping\HomeBookkeeping\UserRepository.h(7,42): error C2065: User: необъявленный идентификатор

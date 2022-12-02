@@ -9,13 +9,14 @@ using namespace std;
 
 class FamilyMember : public User
 {
-private:
+protected:
 	string _name;
 	string _surname;
 	int age;
 	float _currentBalance;
 	std::list<Purchase*> _purchase;
 public:
+	FamilyMember() {};
 	FamilyMemberType type;
 	FamilyMember(string username, string name, string surname, float currentBalance);
 	virtual std::string ToString();
@@ -29,4 +30,7 @@ public:
 	float GetCurrentBalance()const;
 	std::list<Purchase*> GetPurchases()const;
 	void AddPurchase(Purchase* purchase);
+
+	json virtual GetDataJson() = 0;
+	void virtual SetDataJson(json json) = 0;
 };
